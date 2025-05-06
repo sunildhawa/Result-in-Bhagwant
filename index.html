@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Bhagwant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 27px; font-weight: 700; color: rgba(27, 25, 25, 0.705);"> <b style="font-size: 30px; color: #007BFF;">BHAGWANT</b> University Ajmer</h1>
+        <p><b style="font-family: sans-serif; font-size: 26px; color: #007BFF;">Official </b> Online Result Portal</p>
+    </header>
+  
+    <!-- Dropdown for Semester Selection -->
+    
+
+    <div class="all">
+        <!-- Marquee Section -->
+        <div style="overflow: hidden;white-space: nowrap; margin-bottom: 20px;">
+            <marquee behavior="static" direction="left">
+                <div style="display: inline-block; animation: scrollText 10s linear infinite; color: red; font-weight: bold; font-size: 18px;">
+                    <span style="color: rgb(15, 210, 224);"> 🎓 Courses Offered</span>: BCA / MCA / BBA / BSC / BA / BCom / MBA / MTech / BTech 🎓
+                </div>
+            </marquee>
+        </div>
+  
+        <!-- Check Your Result Section -->
+        <h2>Student Result Portal</h2>
+        <div class="container">
+          
+            <div class="input-group">
+            
+                <label for="semesterSelect"> <B>Select Semester:</B> </label>
+                <select id="semesterSelect">
+                    <option value="1">BCA I SEM</option>
+                    <option value="2">BCA II SEM</option>
+                    <option value="3">BCA III SEM</option>
+                    <option value="4">BCA IV SEM</option>
+                    <option value="5">BCA V SEM</option>
+                    <option value="6">BCA VI SEM</option>
+                </select>
+            
+                <input type="text" id="rollInput" placeholder="Enter Roll Number" />
+                <button onclick="search()">Search</button>
+            </div>
+        </div>
+      
+        <div id="resultBox" style="background-color: aliceblue;">
+            <div id="studentInfo"></div>
+            <table id="marksTable"></table>
+            <div class="footer" style="text-align: center;">
+                <button id="downloadBtn" onclick="downloadPDF()">Download PDF</button>
+            </div>
+        </div>
+    </div>
+
+    <footer style="margin-top: 83px;">
+        <a href="Result.BCA.COM" style="color: #007BFF;">Domain Name</a> All Rights Reserved
+        <p>&copy; 2025 Student Result All Rights Reserved.</p>
+        <p>Designed by [Sunil Dhawan]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
